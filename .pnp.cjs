@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:18.2.0"],\
+            ["react-router-dom", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:6.4.3"],\
             ["react-scripts", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:5.0.1"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
@@ -3780,6 +3781,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "webpack-hot-middleware",\
             "webpack-plugin-serve",\
             "webpack"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@remix-run/router", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "./.yarn/cache/@remix-run-router-npm-1.0.3-98de0e8fbb-7e535f3c24.zip/node_modules/@remix-run/router/",\
+          "packageDependencies": [\
+            ["@remix-run/router", "npm:1.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14461,6 +14471,57 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-router", [\
+        ["npm:6.4.3", {\
+          "packageLocation": "./.yarn/cache/react-router-npm-6.4.3-74c3e62880-b89c0495c6.zip/node_modules/react-router/",\
+          "packageDependencies": [\
+            ["react-router", "npm:6.4.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:e117007ca72d8c68c61f70b68f6575136a0a2bb66cf4673ba0c4ca43969aa51d341373dd546b1d9036e41e22741b571437237ffc943ec3d41cef20a9940b88e7#npm:6.4.3", {\
+          "packageLocation": "./.yarn/__virtual__/react-router-virtual-fffcf3aa34/0/cache/react-router-npm-6.4.3-74c3e62880-b89c0495c6.zip/node_modules/react-router/",\
+          "packageDependencies": [\
+            ["react-router", "virtual:e117007ca72d8c68c61f70b68f6575136a0a2bb66cf4673ba0c4ca43969aa51d341373dd546b1d9036e41e22741b571437237ffc943ec3d41cef20a9940b88e7#npm:6.4.3"],\
+            ["@remix-run/router", "npm:1.0.3"],\
+            ["@types/react", null],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-router-dom", [\
+        ["npm:6.4.3", {\
+          "packageLocation": "./.yarn/cache/react-router-dom-npm-6.4.3-3b0e4f134b-67a44d8dc4.zip/node_modules/react-router-dom/",\
+          "packageDependencies": [\
+            ["react-router-dom", "npm:6.4.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:6.4.3", {\
+          "packageLocation": "./.yarn/__virtual__/react-router-dom-virtual-e117007ca7/0/cache/react-router-dom-npm-6.4.3-3b0e4f134b-67a44d8dc4.zip/node_modules/react-router-dom/",\
+          "packageDependencies": [\
+            ["react-router-dom", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:6.4.3"],\
+            ["@remix-run/router", "npm:1.0.3"],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:18.2.0"],\
+            ["react-router", "virtual:e117007ca72d8c68c61f70b68f6575136a0a2bb66cf4673ba0c4ca43969aa51d341373dd546b1d9036e41e22741b571437237ffc943ec3d41cef20a9940b88e7#npm:6.4.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-scripts", [\
         ["npm:5.0.1", {\
           "packageLocation": "./.yarn/cache/react-scripts-npm-5.0.1-d06bd2d5ad-92afa2f245.zip/node_modules/react-scripts/",\
@@ -17306,6 +17367,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/user-event", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:13.5.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:18.2.0"],\
+            ["react-router-dom", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:6.4.3"],\
             ["react-scripts", "virtual:ef83338b94da99771fffe6bc5103fccf2f6c83b2ecc40bb604ede3b8818343cca25d77ff9a63afe465f1047e2c66cd646b1304ac3c68b07c17620c4a8eb54e5f#npm:5.0.1"],\
             ["web-vitals", "npm:2.1.4"]\
           ],\
