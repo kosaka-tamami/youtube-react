@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" component={Top}/>
-        <Route exact path="/search" component={Search}/>
-        <Route exact path="/watch" component={Watch}/>
+        <Route exact path="/" element={<Top/>}/>
+        <Route exact path="/search" element={<Search/>}/>
+        <Route exact path="/watch" element={<Watch/>}/>
       </Routes>
     </Router>
   );
