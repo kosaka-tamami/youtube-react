@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { fetchPopularData } from "../apis/index";
+import Layout from "../components/Layout/Layout";
 
 const Top = () => {
+    useEffect(() => {
+        fetchPopularData().then((res) => {
+            console.log('data. res')
+        })
+    }, [])
     return (
-        <div>
+        <Layout>
             top page
-        </div>
+        </Layout>
     )
 }
 
